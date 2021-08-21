@@ -400,6 +400,11 @@ img {
 .button-portfolio {
   padding: 6px 22px;
 }
+.button-portfolio {
+  background: var(--button-bg-color);
+  border-radius: 4px;
+  border: 0px;
+}
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--button-bg-color);
