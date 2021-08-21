@@ -385,6 +385,9 @@ img {
   display: flex;
   margin-bottom: 50px;
 }
+.project {
+  padding-bottom: 94px;
+}
 .button-portfolio {
   font-family: Roboto;
   font-style: normal;
