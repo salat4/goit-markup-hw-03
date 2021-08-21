@@ -260,8 +260,7 @@ img {
   margin-left: 30px;
   margin-top: 30px;
 }
-.team {
-  background-color: var(--button-bg-color);
+.teamer {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -269,16 +268,18 @@ img {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 .team {
+  background-color: var(--button-bg-color);
   text-align: center;
-  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  padding-bottom: 94px;
 }
 .name-list {
   font-family: 'Roboto', 'sans-serif';
