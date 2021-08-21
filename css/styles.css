@@ -39,8 +39,10 @@ ul {
   padding-left: 0;
 }
 section {
-  padding-bottom: 94px;
   padding-top: 94px;
+}
+img {
+  display: block;
 }
 .Web-header {
   font-family: 'Raleway', sans-serif;
@@ -115,6 +117,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 .contacts {
   margin-left: auto;
@@ -206,25 +209,31 @@ section {
 }
 
 .originality-exp {
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.71;
-  color: var(--secondary-text-color);
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .originality-exp {
   width: 270px;
   margin-top: 10px;
 }
 .originality-list {
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 14px;
-  line-height: 1.14;
-  color: var(--primary-text-color);
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .originality-list {
   width: 270px;
+}
+.do {
+  padding-bottom: 94px;
 }
 .second-title {
   font-family: 'Roboto', 'sans-serif';
@@ -232,31 +241,38 @@ section {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .second-title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .third-list {
   flex-wrap: wrap;
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
-  padding-bottom: 94px;
 }
 .job {
   width: 370px;
 }
 .job {
-  flex-basis: ((100% -3 * 30px)/3);
+  flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .team {
   background-color: var(--button-bg-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .team {
   text-align: center;
-  padding-bottom: 94px;
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -285,7 +301,7 @@ section {
   color: var(--secondary-text-color);
 }
 .prof {
-  flex-basis: ((100%-4 * 30)/4);
+  flex-basis: calc((100% - 4 * 30) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -358,9 +374,7 @@ section {
 .footer-mail {
   margin-bottom: 9px;
 }
-.project {
-  width: 1200px;
-}
+
 .port-btn:not(:last-child) {
   margin-right: 8px;
   align-items: center;
@@ -368,7 +382,7 @@ section {
 .container .portfolio-list {
   justify-content: center;
   display: flex;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .button-portfolio {
   font-family: Roboto;
@@ -394,14 +408,15 @@ section {
   margin-top: -30px;
 }
 .port-label {
-  flex-basis: ((100% -3 * 30px)/3);
+  flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
   margin-top: 30px;
-  border: 1px solid #eeeeee;
 }
 .description {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px 24px 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .label-list {
   font-family: Roboto;
